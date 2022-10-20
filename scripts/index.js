@@ -101,13 +101,11 @@ closeButton.addEventListener("click", (e) => {
 
 popup.addEventListener("submit", submitAction);
 
-// smooth scrool
-
 //change cursor
 function changeCursor() {
   const cursor = document.querySelector(".cursor");
   const follower = document.querySelector(".follower");
-
+  const links = document.querySelectorAll(".link")
   var posX = 0,
     posY = 0;
 
@@ -140,6 +138,20 @@ gsap.to({}, 0.016, {
     mouseX = e.clientX;
     mouseY = e.clientY;
   });
+
+
+  links.forEach(link => {
+    console.log(link)
+    link.addEventListener("mouseenter", () => {
+      cursor.classList.add("active")
+      follower.classList.add("active")
+    })
+    link.addEventListener("mouseleave", () => {
+      cursor.classList.remove("active")
+      follower.classList.remove("active")
+    })
+  })
 }
 
 changeCursor();
+
