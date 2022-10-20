@@ -1,0 +1,12 @@
+.header__info-item {
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 150%;
+    color: #ffffff;
+    background: #1378ef;
+    border-radius: 64px;
+    padding: 2px 16px;
+  }
+  

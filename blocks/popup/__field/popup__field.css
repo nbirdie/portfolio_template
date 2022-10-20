@@ -1,0 +1,21 @@
+.popup__field {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 170%;
+  color: #ffffff;
+  background: #1F1F1F;
+  border: none;
+  width: 100%;
+  border-bottom: 1px solid white;
+  margin: 0 auto 30px auto;
+  overflow: scroll;
+  /* max-height: 77px; */
+  resize: none;
+}
+
+.popup__field::placeholder {
+  color: #FFFFFF;
+  /* text-align:start; */
+}
+

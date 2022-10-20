@@ -1,0 +1,25 @@
+.tabs__header-item {
+    margin: 30px 20px 0 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+    color: rgba(255, 255, 255, 0.59);
+  }
+  
+  @media (max-width: 768px) {
+    .tabs__header-item {
+      margin: 15px 15px 0 15px;
+      line-height: 100%;
+    }
+  }
+  
+  .tabs__header-item.active {
+    color: white;
+  }
+  
+  .tabs__header-item:hover {
+    color: white;
+    transition: 0.3s all ease;
+  }
+  

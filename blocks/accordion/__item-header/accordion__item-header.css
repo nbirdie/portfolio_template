@@ -1,0 +1,6 @@
+.accordion__item-header {
+    display: flex;
+    justify-content: space-between;
+    flex: 0 0 60%;
+    align-items: center;
+  }

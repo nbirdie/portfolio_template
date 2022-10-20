@@ -1,0 +1,40 @@
+.overlay {
+
+    min-height: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+    border-left: 1px solid rgba(255, 255, 255, 0.11);
+    border-right: 1px solid rgba(255, 255, 255, 0.11);
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .overlay::after {
+      position: absolute;
+      content: '';
+      top: 0;
+      bottom: 0;
+      width: 1px;
+      background: rgba(255, 255, 255, 0.11);
+      right: 33%;
+   
+  }
+  
+  .overlay::before {
+      position: absolute;
+      content: '';
+      top: 0;
+      bottom: 0;
+      width: 1px;
+      background: rgba(255, 255, 255, 0.11);
+      left: 33%;
+  }
+
+
+@media (max-width: 992px){
+    .overlay {
+      padding: 0 10px;
+    }
+  }
+  

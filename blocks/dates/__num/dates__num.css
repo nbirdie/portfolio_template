@@ -1,0 +1,25 @@
+.dates__num {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 170%;
+    color: #ffffff;
+    position: relative;
+  }
+  
+  .dates__num::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 1px;
+    width: 75px;
+    background: white;
+  }
+  
+  @media (max-width: 500px) {
+    .dates__num {
+      font-size: 28px;
+      line-height: 30px;
+    }
+  }

@@ -1,0 +1,12 @@
+.tab__content_place_left {
+    flex: 0 0 33%;
+    width: 100%;
+  }
+  
+  @media (max-width: 768px) {
+    .tab__content_place_left {
+      flex: 0 0 100%;
+      display: flex;
+      justify-content: center;
+    }
+  }

@@ -1,0 +1,6 @@
+.menu__list {
+  display: flex;
+  z-index: 1;
+  list-style: none;
+  flex-wrap: wrap;
+}

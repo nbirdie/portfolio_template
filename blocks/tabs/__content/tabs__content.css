@@ -1,0 +1,12 @@
+.tabs__content {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    font-size: 75px;
+  }
+  
+  @media (max-width: 768px) {
+    .tabs__content {
+      margin-top: 5px;
+    }
+  }

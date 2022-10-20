@@ -1,0 +1,36 @@
+.contact__btn {
+  width: 260px;
+  height: 260px;
+  background: #1378ef;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #ffffff;
+  margin: 0 auto;
+  margin-top: -108px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .contact__btn {
+    width: 200px;
+    height: 200px;
+    margin-top: -65px;
+  }
+}
+
+@media (max-width: 500px) {
+  .contact__btn {
+    width: 150px;
+    height: 150px;
+    font-size: 14px;
+    margin-top: -45px;
+  }
+}

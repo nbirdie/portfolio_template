@@ -1,0 +1,24 @@
+.header__title {
+    padding-top: 130px;
+    margin: 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 78px;
+    line-height: 116%;
+    color: #ffffff;
+  }
+  
+  @media (max-width: 992px) {
+    .header__title {
+      padding-top: 25px;
+      text-align: center;
+      font-size: 62px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .header__title {
+      font-size: 36px;
+      line-height: 42px;
+    }
+  }

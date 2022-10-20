@@ -1,0 +1,19 @@
+.dates__item {
+    flex: 0 0 33%;
+    margin-top: 45px;
+  }
+  
+  @media (max-width: 768px) {
+    .dates__item {
+      flex: 0 0 50%;
+      margin-top: 25px;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .dates__item {
+      flex: 0 0 100%;
+      padding-right: 0;
+      margin-top: 15px;
+    }
+  }

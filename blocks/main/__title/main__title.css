@@ -1,0 +1,23 @@
+.main__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 55px;
+    color: #ffffff;
+    margin-top: 15px;
+    margin-bottom: 0;
+  }
+  
+  @media (max-width: 768px) {
+    .main__title {
+      font-size: 36px;
+      line-height: 40px;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .main__title {
+      font-size: 28px;
+      line-height: 30px;
+    }
+  }

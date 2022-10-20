@@ -1,0 +1,24 @@
+.accordion__item {
+  margin-bottom: 20px;
+}
+
+.accordion__item:not(.accordion__item_show) .accordion__body {
+  display: none;
+}
+
+.accordion__item.accordion__item_show .accordion__body {
+  display: flex;
+}
+
+.accordion__item.accordion__item_show .accordion__image {
+  transform: rotate(-90deg);
+  transition: 0.3s all ease;
+}
+
+.accordion__item.accordion__item_show .accordion__header {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 55px;
+  color: #1378ef;
+}

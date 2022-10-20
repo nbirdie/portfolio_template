@@ -1,0 +1,15 @@
+.header__item {
+    flex: 0 0 50%;
+  }
+  
+  @media (max-width: 992px) {
+    .header__item {
+      flex: 0 0 100%;
+    }
+  
+    .header__item:last-child {
+      margin-top: 25px;
+      text-align: center;
+    }
+  }
+  

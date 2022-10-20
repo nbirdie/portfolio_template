@@ -1,0 +1,15 @@
+.tabs__content-item {
+    display: none;
+  }
+  
+  .tabs__content-item.active {
+    display: flex;
+    width: 100%;
+  }
+  
+  @media (max-width: 768px) {
+    .tabs__content-item.active {
+      flex-direction: column;
+    }
+  }
+  

@@ -1,0 +1,15 @@
+.page {
+  max-width: 1300px;
+  min-width: 320px;
+  margin: 0 auto;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  background: #1f1f1f;
+  cursor: none;
+}
+
+html{
+  background: #1f1f1f;
+}
+
