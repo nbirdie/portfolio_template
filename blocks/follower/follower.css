@@ -16,3 +16,9 @@
   background: #1378ef;
   z-index: 0;
 }
+
+@media (max-width: 500px) {
+  .follower {
+    visibility: hidden;
+  }
+}

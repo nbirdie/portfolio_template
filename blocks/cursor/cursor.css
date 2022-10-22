@@ -13,3 +13,9 @@
 .cursor.active {
   transform: scale(0);
 }
+
+@media (max-width: 500px) {
+  .cursor {
+    visibility: hidden;
+  }
+}
