@@ -17,5 +17,6 @@
 @media (max-width: 500px) {
   .cursor {
     visibility: hidden;
+    background:transparent;
   }
 }

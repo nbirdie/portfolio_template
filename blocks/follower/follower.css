@@ -20,5 +20,6 @@
 @media (max-width: 500px) {
   .follower {
     visibility: hidden;
+    border: none;
   }
 }
