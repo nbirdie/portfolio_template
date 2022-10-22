@@ -1,10 +1,10 @@
 # portfolio_template
 
-# Description 
+## Description 
 One page portfolio template website.
-# Instructions 
+## Instructions 
 Just open the [link](https://nbirdie.github.io/portfolio_template/)
-# Technologies
+## Technologies
 * HTML
 * CSS
 * JS
